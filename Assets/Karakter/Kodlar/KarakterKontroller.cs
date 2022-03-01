@@ -4,15 +4,27 @@ using UnityEngine;
 
 public class KarakterKontroller : MonoBehaviour
 {
-    
+    Animator anim;
+
+    [SerializeField]
+    private float karakterhiz;
     void Start()
     {
-        //sdgsd
+        anim = this.GetComponent<Animator>();
     }
 
 
     void Update()
     {
-        //sdegeragh
+        Hareket();
+
+    }
+    void Hareket()
+    {
+        float yatay = Input.GetAxis("Horizontal");
+        float dikey = Input.GetAxis("Vertical");
+        anim.SetFloat("Horizontal", yatay);
+        anim.SetFloat("Vertical", dikey);
+
     }
 }
