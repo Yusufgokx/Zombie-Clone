@@ -8,6 +8,7 @@ public class KarakterKontroller : MonoBehaviour
 
     [SerializeField]
     private float karakterhiz;
+    
     void Start()
     {
         anim = this.GetComponent<Animator>();
@@ -25,6 +26,7 @@ public class KarakterKontroller : MonoBehaviour
         float dikey = Input.GetAxis("Vertical");
         anim.SetFloat("Horizontal", yatay);
         anim.SetFloat("Vertical", dikey);
+        this.gameObject.transform.Translate(yatay * karakterhiz * Time.deltaTime, 0, dikey * karakterhiz * Time.deltaTime);
 
     }
 }
