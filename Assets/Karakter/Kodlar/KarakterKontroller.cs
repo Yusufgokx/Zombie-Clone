@@ -13,6 +13,6 @@ public class KarakterKontroller : MonoBehaviour
 
     void Update()
     {
-        
+        //sdegeragh
     }
 }
