@@ -1039,6 +1039,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 76468430}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &91641549 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7483228302982614876, guid: 0c7a86356d247ef439f6af63315ce5be,
+    type: 3}
+  m_PrefabInstance: {fileID: 471253086}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &96080320
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4058,7 +4064,6 @@ Transform:
   - {fileID: 535951492}
   - {fileID: 1290436397}
   - {fileID: 320344004}
-  - {fileID: 1416027139}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4213,13 +4218,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 379365308}
-  m_LocalRotation: {x: 0.13052616, y: -0, z: -0, w: 0.9914449}
-  m_LocalPosition: {x: -0.10173321, y: 2.4259999, z: -4.389427}
+  m_LocalRotation: {x: 0.044712845, y: -0, z: -0, w: 0.9989999}
+  m_LocalPosition: {x: 0, y: 0.29999995, z: -3.153}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1416027139}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 5.1250005, y: 0, z: 0}
 --- !u!1001 &379473773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16578,8 +16583,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hedef: {fileID: 203117531}
-  hedefMesafe: {x: 0, y: 0, z: 0}
+  hedefMesafe: {x: 0, y: 2, z: 0}
   fareHassasiyeti: 2
+  karakterVucut: {fileID: 91641549}
 --- !u!4 &1416027139
 Transform:
   m_ObjectHideFlags: 0
@@ -16588,12 +16594,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1416027137}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.697586, y: -11.341725, z: -12.302765}
+  m_LocalPosition: {x: 14.700001, y: 1.6540003, z: -24.311}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 379365311}
-  m_Father: {fileID: 375194868}
-  m_RootOrder: 3
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1416896173
 PrefabInstance:
