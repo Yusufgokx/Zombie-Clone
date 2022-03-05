@@ -44,7 +44,7 @@ AvatarMask:
   - m_Path: swat:Hips/swat:Spine/swat:Spine1
     m_Weight: 1
   - m_Path: swat:Hips/swat:Spine/swat:Spine1/swat:Spine2
-    m_Weight: 1
+    m_Weight: 0
   - m_Path: swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder
     m_Weight: 1
   - m_Path: swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm
