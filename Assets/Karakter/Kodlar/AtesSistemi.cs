@@ -6,6 +6,8 @@ public class AtesSistemi : MonoBehaviour
 {
     Camera kamera;
     public LayerMask zombikatman;
+    public KarakterKontroller hpKontrol;
+
     void Start()
     {
         kamera = Camera.main;
@@ -14,14 +16,17 @@ public class AtesSistemi : MonoBehaviour
     
     void Update()
     {
-        if(Input.GetMouseButton(0))
+
+        if (hpKontrol.YasiyorMu()==true)
         {
+            if (Input.GetMouseButton(0))
+            {
 
-            AtesEtme();
+                AtesEtme();
+            }
+        }   
+        
 
-
-        } 
-                
     }
 
     void AtesEtme()

@@ -71,7 +71,7 @@ public class Zombie : MonoBehaviour
     }
     public void HasarVer()
     {
-        //hedefOyuncu.GetComponent<KarakterKontroller>().HasarAL();
+        hedefOyuncu.GetComponent<KarakterKontroller>().HasarAL();
     }
 
     IEnumerator YokOL()
