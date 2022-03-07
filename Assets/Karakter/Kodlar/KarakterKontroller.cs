@@ -25,7 +25,7 @@ public class KarakterKontroller : MonoBehaviour
         if (saglik <= 0)
         {
             Hayattami = false;
-            anim.SetBool("YasiyorMu", Hayattami);
+            anim.SetBool("yasiyorMu", Hayattami);
         }
         if (Hayattami == true)
         {
