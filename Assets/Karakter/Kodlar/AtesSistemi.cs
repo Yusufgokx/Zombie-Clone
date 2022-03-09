@@ -15,11 +15,16 @@ public class AtesSistemi : MonoBehaviour
     private float cephane = 10;
     private float sarjorKapasitesi = 5;
 
+    public AudioSource sesKaynagi;
+    public AudioClip atesSes;
+    public AudioClip reloadSes;
+
     void Start()
     {
         kamera = Camera.main;
         anim =this.gameObject.GetComponent<Animator>();
         muzzleFlash.Stop();
+        sesKaynagi= this.gameObject.GetComponent<AudioSource>();
 
     }
 
@@ -76,5 +81,14 @@ public class AtesSistemi : MonoBehaviour
             hit.collider.gameObject.GetComponent<Zombie>().HasarAL();
         }
 
+    }
+
+    public float GetSarjor()
+    {
+        return sarjor;
+    }
+    public float GetCephane()
+    {
+        return cephane;
     }
 }

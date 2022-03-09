@@ -26,6 +26,7 @@ public class KarakterKontroller : MonoBehaviour
         {
             Hayattami = false;
             anim.SetBool("yasiyorMu", Hayattami);
+            saglik = 0;
         }
         if (Hayattami == true)
         {
@@ -34,6 +35,10 @@ public class KarakterKontroller : MonoBehaviour
 
 
 
+    }
+    public float GetSaglik()
+    {
+        return saglik;
     }
     public bool YasiyorMu() //private olan değişkene başka scriptten erişmemizi sağlayan fonksyon
     {
